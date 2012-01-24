@@ -1,0 +1,10 @@
+development: &defaults
+  consumer_key: z7q3rgjzk18emh8t
+  consumer_secret: d92wr0i8pfe1v8i2
+  consumer_handler: CreataryHandler
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
