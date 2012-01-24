@@ -4,7 +4,7 @@ FindMe::Application.routes.draw do
 
   root :to => "home#index"
 
-  match '/tamapi/(:string)' => TAM::API, :as => :tamapi
+  match '/creatary/(:string)' => Creatary::API, :as => :creatary
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

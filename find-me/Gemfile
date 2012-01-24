@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.0'
-gem 'tam' #, :git => 'https://github.com/tamdeveloper/telco-asset-marketplace-gem'
+gem 'creatary-sdk' #, :git => 'https://github.com/creatary/creatary-ruby-sdk'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

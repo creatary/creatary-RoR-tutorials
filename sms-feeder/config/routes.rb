@@ -3,7 +3,7 @@ HelloWorld::Application.routes.draw do
   
   root :to => "home#index"  
   
-  match '/tamapi/(:string)' => TAM::API
+  match '/creatary/(:string)' => Creatary::API
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

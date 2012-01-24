@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    redirect_to tamapi_path + '/authorize'
+    redirect_to creatary_path + '/authorize'
   end
   
   def find_me
