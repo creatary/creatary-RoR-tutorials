@@ -1,0 +1,3 @@
+Simple subscription application
+===============================
+This application shows how simple it is to create subscription based services in creatary
