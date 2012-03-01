@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    redirect_to tamapi_path + '/authorize?subscription_tariff_name=premium'
+    redirect_to creatary_path + '/authorize?subscription_tariff_name=premium'
   end
   
   def subscribed

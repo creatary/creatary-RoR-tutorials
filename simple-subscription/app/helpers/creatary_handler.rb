@@ -1,4 +1,4 @@
-class TamHandler
+class CreataryHandler
   def authorized(user, session, subscription_tariff_name)
     session[:user] = user
     puts "tariff name #{subscription_tariff_name}"
