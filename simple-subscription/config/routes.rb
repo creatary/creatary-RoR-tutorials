@@ -2,7 +2,7 @@ SimpleSubscription::Application.routes.draw do
   get "home/denied"
   get "home/subscribed"
   get "home/unsubscribe"
-  post "unsubscribed" => 'home#unsubscribed'
+  post "home/unsubscribed"
   post "charging" => 'home#charging'
 
   root :to => "home#index"
