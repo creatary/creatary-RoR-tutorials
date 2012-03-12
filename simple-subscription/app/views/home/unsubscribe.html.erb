@@ -1,0 +1,9 @@
+<div class="outer_wrapper">
+	<div class='contents'>
+		<%= form_tag("/unsubscribed", :method => "post") do %>
+			<div><%= label_tag(:access_token, "Access token:") %> <%= text_field_tag(:access_token) %></div>
+			<div><%= label_tag(:token_secret, "Token secret:") %> <%= text_field_tag(:token_secret) %></div>
+			<%= submit_tag("unsubscribe") %>
+		<% end %>
+	</div>
+</div>
