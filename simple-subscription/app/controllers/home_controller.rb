@@ -6,6 +6,15 @@ class HomeController < ApplicationController
   def subscribed
   end
   
+  def unsubscribe
+  end
+  
+  def unsubscribed
+    logger.info "#{params.inspect}"
+    user = Creatary::User.new(params[:access_token], params[:token_secret])
+    logger.info Creatary::API.unregister(user)
+  end
+  
   def denied
   end
   

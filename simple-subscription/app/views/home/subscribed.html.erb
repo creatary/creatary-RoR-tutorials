@@ -2,4 +2,7 @@
 	<div class='contents'>
 	Congratulations you are now subscribed to our wonderful service
 	</div>
+	<div>Access token: <%= session[:user].access_token%></div>
+	<div>Token secret: <%= session[:user].token_secret%></div>
+	 <%= link_to "Unsubscribe", {:action => 'unsubscribe' }%>
 </div>

@@ -1,6 +1,6 @@
 development: &defaults
-  consumer_key: j1p6z904cukdsr8y
-  consumer_secret: zkufiky9c3r27kvf
+  consumer_key: u5p1ugylnkoiclq5
+  consumer_secret: 0dzbupwyh7hsrva2
   consumer_handler: CreataryHandler
   site: https://local.telcoassetmarketplace.com:9443
 
