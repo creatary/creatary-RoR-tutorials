@@ -1,5 +1,6 @@
 SimpleSubscription::Application.routes.draw do
   get "home/denied"
+  get "home/subscribe"
   get "home/subscribed"
   get "home/unsubscribe"
   post "home/unsubscribed"

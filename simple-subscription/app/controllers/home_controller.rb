@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
   def index
+  end
+  
+  def subscribe
     redirect_to creatary_path + '/authorize?subscription_tariff_name=premium'
   end
   
