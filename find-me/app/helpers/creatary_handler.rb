@@ -1,3 +1,6 @@
+#
+# Copyright 2012 Nokia Siemens Networks 
+#
 class CreataryHandler
   def authorized(user, session)
     coords = Creatary::API.getcoord(user)["body"]

@@ -6,3 +6,5 @@ You can find a screencast explaining this application in
 
 If you want to run this application by yourself then notice that you need to 
 configure your lonely planet application keys in creatary_handler.rb file
+
+Copyright 2012 Nokia Siemens Networks 

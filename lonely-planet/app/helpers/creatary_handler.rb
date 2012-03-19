@@ -1,3 +1,6 @@
+#
+# Copyright 2012 Nokia Siemens Networks 
+#
 class CreataryHandler
   TYPES = Set.new ["eat", "sleep", "see", "shop", "night", "do"]
   
